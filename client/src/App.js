@@ -5,6 +5,8 @@ import SavedList from './Movies/SavedList';
 import MovieList from './Movies/MovieList';
 import Movie from './Movies/Movie';
 
+import './app.css';
+
 const App = () => {
   const [savedList, setSavedList] = useState([]);
 
